@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SF+Compact+Text:wght@400&display=swap");
 body {
   margin: 0;
   line-height: normal;
@@ -8,6 +9,7 @@ body {
   /* fonts */
   --font-work-sans: "Work Sans";
   --font-roboto: Roboto;
+  --font-sf-compact-text: "SF Compact Text";
 
   /* font sizes */
   --font-size-base: 16px;
@@ -15,8 +17,12 @@ body {
   --font-size-xs: 12px;
   --font-size-5xl: 24px;
   --font-size-lgi: 19px;
+  --font-size-3xl: 22px;
+  --font-size-lg: 18px;
 
   /* Colors */
+  --color-gray-200: #fbfbfb;
+  --color-gray-300: rgba(0, 0, 0, 0.8);
   --color-gray-100: rgba(255, 255, 255, 0.2);
   --color-darkslateblue-100: #213f7d;
   --color-darkslateblue-200: rgba(33, 63, 125, 0.1);
@@ -61,6 +67,10 @@ body {
   --gap-31xl: 50px;
   --gap-19xl: 38px;
   --gap-4xs: 9px;
+  --gap-32xl: 51px;
+  --gap-61xl: 80px;
+  --gap-30xl: 49px;
+  --gap-10xl-5: 29.5px;
 
   /* Paddings */
   --padding-7xl: 26px;
@@ -91,6 +101,11 @@ body {
   --padding-sm: 14px;
   --padding-4xl: 23px;
   --padding-15xl: 34px;
+  --padding-lgi: 19px;
+  --padding-61xl: 80px;
+  --padding-6xl: 25px;
+  --padding-5xl: 24px;
+  --padding-25xl: 44px;
 
   /* Border radiuses */
   --br-5xs: 8px;

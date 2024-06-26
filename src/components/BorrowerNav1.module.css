@@ -36,29 +36,25 @@
 }
 .logout {
   text-decoration: none;
-  align-self: stretch;
-  flex: 1;
   position: relative;
   color: inherit;
+  display: inline-block;
+  min-width: 54px;
 }
-.logoutAction {
-  align-self: stretch;
+.div {
   flex-direction: row;
   gap: var(--gap-3xs);
 }
-.logoutAction,
-.logoutActionWrapper,
-.navFooter {
-  flex: 1;
+.div,
+.navFooter,
+.wrapper {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.logoutActionWrapper {
-  width: 140px;
+.wrapper {
   flex-direction: row;
   padding: 0 var(--padding-11xl);
-  box-sizing: border-box;
 }
 .navFooter {
   margin-left: -30px;
@@ -68,19 +64,17 @@
   z-index: 1;
 }
 .v120 {
-  width: 32px;
-  height: 14px;
   position: relative;
   font-size: var(--font-size-xs);
   display: inline-block;
+  min-width: 32px;
   z-index: 1;
 }
-.navContent {
+.navFooterParent {
   position: absolute;
   top: 1482px;
   left: 0;
   width: 100%;
-  height: 93px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -96,7 +90,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.switchOrganizationIcon {
+.nextOrganizationButton {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -124,27 +118,25 @@
   flex-shrink: 0;
   object-fit: contain;
 }
-.div,
-.npNext22368260000002Wrapper,
-.switchOrganizationContent {
+.nextOrganization {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.organizationSwitcherContent,
+.switcherButton {
+  display: flex;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.npNext22368260000002Wrapper {
-  flex-direction: column;
-  padding: var(--padding-11xs) 0 0;
-}
-.div,
-.switchOrganizationContent {
-  flex-direction: row;
-}
-.div {
+.organizationSwitcherContent {
   gap: var(--gap-3xs-5);
-  flex-shrink: 0;
   z-index: 1;
 }
-.switchOrganizationContent {
+.switcherButton {
   padding: 0 var(--padding-11xl);
 }
 .base1,
@@ -168,7 +160,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.dashboardGlyph {
+.homeIcon {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -247,7 +239,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.userImage {
+.userFriends1Wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -267,13 +259,13 @@
   z-index: 1;
 }
 .navLink1,
-.userIcon,
-.users {
+.users,
+.usersIcon {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.userIcon {
+.usersIcon {
   flex-direction: column;
   padding: var(--padding-3xs) 0 0;
 }
@@ -305,7 +297,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.guarantorGlyph {
+.users1Wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -351,10 +343,10 @@
 .navLink2 {
   z-index: 1;
 }
-.customerLink,
+.frameParent,
 .navLink2,
 .navLinkContainer,
-.usersAction {
+.usersLink {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -365,15 +357,15 @@
   padding: 0 var(--padding-11xl);
   box-sizing: border-box;
 }
-.customerLink,
-.usersAction {
+.frameParent,
+.usersLink {
   align-self: stretch;
   flex-direction: column;
   gap: var(--gap-xl);
   font-size: var(--font-size-base);
   color: var(--color-darkslateblue-100);
 }
-.customerLink {
+.frameParent {
   gap: var(--gap-3xs);
   font-size: var(--font-size-xs);
   color: var(--color-slategray-100);
@@ -399,7 +391,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.loanLabel {
+.sackIcon {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -423,9 +415,9 @@
   gap: var(--gap-3xs);
   opacity: 0.6;
 }
-.loanIcon,
 .loans,
-.navLink3 {
+.navLink3,
+.navLinkFrame {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -434,7 +426,7 @@
 .navLink3 {
   z-index: 1;
 }
-.loanIcon {
+.navLinkFrame {
   padding: 0 var(--padding-10xs);
 }
 .base5,
@@ -458,7 +450,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.modelLabel {
+.handshakeRegular1Wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -513,7 +505,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.savingIcon {
+.piggyBankIcon {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -581,14 +573,14 @@
   display: inline-block;
   min-width: 116px;
 }
-.loanRequestLabel,
+.loanRequestsWrapper,
 .navLink6,
 .savings2 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.loanRequestLabel {
+.loanRequestsWrapper {
   flex-direction: column;
   padding: var(--padding-12xs) 0 0;
 }
@@ -624,7 +616,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.userTypeIcons {
+.checkTimesIcon {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -705,7 +697,7 @@
   opacity: 0.6;
 }
 .navLink8,
-.userLists,
+.userLoanOptions,
 .users4 {
   display: flex;
   align-items: flex-start;
@@ -715,29 +707,29 @@
   flex-direction: row;
   z-index: 1;
 }
-.userLists {
+.userLoanOptions {
   flex: 1;
   flex-direction: column;
   gap: var(--gap-10xl-7);
 }
-.userListContent {
+.userLoans {
   align-self: stretch;
   flex-direction: row;
   padding: 0 var(--padding-xs) 0 var(--padding-10xs);
 }
-.loanAction,
-.loanIconParent,
-.userListContent {
+.businessesContent,
+.businessesContentWrapper,
+.userLoans {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.loanIconParent {
+.businessesContent {
   flex: 1;
   flex-direction: column;
   gap: var(--gap-12xl-5);
 }
-.loanAction {
+.businessesContentWrapper {
   width: 209px;
   flex-direction: row;
   padding: 0 var(--padding-7xl) var(--padding-3xs);
@@ -750,7 +742,7 @@
   min-width: 75px;
   z-index: 1;
 }
-.businessLabel {
+.businessesWrapper {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -778,7 +770,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.businessIcons {
+.briefcase1Wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -802,7 +794,7 @@
   gap: var(--gap-3xs);
   opacity: 0.6;
 }
-.businessNavigation,
+.businessLinks,
 .navLink9,
 .organization {
   display: flex;
@@ -813,7 +805,7 @@
 .navLink9 {
   z-index: 1;
 }
-.businessNavigation {
+.businessLinks {
   padding: 0 var(--padding-11xs);
 }
 .base11,
@@ -842,13 +834,13 @@
   min-width: 113px;
 }
 .loanProducts,
-.loanProductsLabel,
+.loanProductsWrapper,
 .navLink10 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.loanProductsLabel {
+.loanProductsWrapper {
   flex-direction: column;
   padding: var(--padding-11xs) 0 0;
 }
@@ -898,7 +890,7 @@
   gap: var(--gap-3xs);
   opacity: 0.6;
 }
-.businessNavigation1,
+.businessLinks1,
 .navLink11,
 .savingsProducts {
   display: flex;
@@ -909,7 +901,7 @@
 .navLink11 {
   z-index: 1;
 }
-.businessNavigation1 {
+.businessLinks1 {
   padding: 0 var(--padding-9xs) 0 var(--padding-11xs);
 }
 .base13,
@@ -955,7 +947,7 @@
   gap: var(--gap-3xs);
   opacity: 0.6;
 }
-.businessNavigation2,
+.businessLinks2,
 .navLink12,
 .savingsProducts2 {
   display: flex;
@@ -966,7 +958,7 @@
 .navLink12 {
   z-index: 1;
 }
-.businessNavigation2 {
+.businessLinks2 {
   padding: 0 0 0 var(--padding-11xs);
 }
 .base14 {
@@ -1007,7 +999,7 @@
   gap: var(--gap-3xs);
   opacity: 0.6;
 }
-.businessNavigation3,
+.businessServices,
 .navLink13,
 .organization2 {
   display: flex;
@@ -1018,7 +1010,7 @@
 .navLink13 {
   z-index: 1;
 }
-.businessNavigation3 {
+.businessServices {
   padding: 0 var(--padding-11xs);
 }
 .base15,
@@ -1042,7 +1034,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.servicesGlyph {
+.galaxy1Wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1069,9 +1061,9 @@
   gap: var(--gap-3xs);
   opacity: 0.6;
 }
+.businessLinks3,
 .navLink14,
-.services,
-.servicesAction {
+.services {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1080,7 +1072,7 @@
 .navLink14 {
   z-index: 1;
 }
-.servicesAction {
+.businessLinks3 {
   padding: 0 var(--padding-11xs);
 }
 .base16,
@@ -1128,7 +1120,7 @@
   gap: var(--gap-3xs);
   opacity: 0.6;
 }
-.businessNavigation4,
+.businessLinks4,
 .navLink15,
 .services2 {
   display: flex;
@@ -1139,7 +1131,7 @@
 .navLink15 {
   z-index: 1;
 }
-.businessNavigation4 {
+.businessLinks4 {
   padding: 0 var(--padding-xs) 0 var(--padding-11xs);
 }
 .base17,
@@ -1187,7 +1179,7 @@
   gap: var(--gap-3xs);
   opacity: 0.6;
 }
-.businessNavigation5,
+.businessLinks5,
 .navLink16,
 .settlements {
   display: flex;
@@ -1198,7 +1190,7 @@
 .navLink16 {
   z-index: 1;
 }
-.businessNavigation5 {
+.businessLinks5 {
   padding: 0 var(--padding-11xs);
 }
 .base18,
@@ -1256,36 +1248,36 @@
   flex-direction: row;
   z-index: 1;
 }
-.businessContent,
-.businessLabelParent,
-.businessNavigation6,
-.navLink17 {
+.businessOptions,
+.businessesLink,
+.navLink17,
+.settingsContent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.businessNavigation6 {
+.businessesLink {
   flex-direction: row;
   padding: 0 var(--padding-11xs);
 }
-.businessContent,
-.businessLabelParent {
+.businessOptions,
+.settingsContent {
   flex-direction: column;
 }
-.businessContent {
+.businessOptions {
   gap: var(--gap-11xl-8);
   font-size: var(--font-size-base);
   color: var(--color-darkslateblue-100);
 }
-.businessLabelParent {
+.settingsContent {
   gap: var(--gap-xl);
 }
-.businessAction,
-.settings {
+.settings,
+.settingsContentWrapper {
   font-size: var(--font-size-xs);
   color: var(--color-slategray-100);
 }
-.businessAction {
+.settingsContentWrapper {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1320,7 +1312,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.preferenceIcon {
+.slidersH1Wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1345,9 +1337,9 @@
   gap: var(--gap-3xs);
   opacity: 0.6;
 }
+.frameDiv,
 .navLink18,
-.preferences,
-.settingContent {
+.preferences {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1356,7 +1348,7 @@
 .navLink18 {
   z-index: 1;
 }
-.settingContent {
+.frameDiv {
   padding: 0 0 var(--padding-2xs);
 }
 .base20,
@@ -1380,7 +1372,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.pricingBadge {
+.badgePercent1Wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1500,7 +1492,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.tires {
+.tire1Wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1516,81 +1508,67 @@
   display: none;
 }
 .systemsMessages {
-  align-self: stretch;
-  flex: 1;
   position: relative;
 }
 .organization5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-3xs);
   opacity: 0.6;
 }
-.navLink21,
-.organization5,
-.systemMessagesLink {
-  align-self: stretch;
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
 .navLink21 {
+  flex-direction: row;
   z-index: 1;
 }
-.systemMessagesLink {
-  padding: 0 0 0 var(--padding-12xs);
-}
-.preferenceLabel,
-.settingsParent {
-  align-self: stretch;
-  flex: 1;
-  flex-direction: column;
-}
-.preferenceLabel {
+.navLink21,
+.organizationLink,
+.systemsMessage {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+}
+.systemsMessage {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.organizationLink {
+  flex-direction: column;
   gap: var(--gap-10xl-9);
 }
 .settingsParent {
+  flex-direction: column;
   gap: var(--gap-xl);
 }
-.dashboardLink,
-.settingAction,
-.settingsParent,
-.switchOrganizationAction {
+.customersLink,
+.customersLinkInner,
+.navigationContent,
+.settingsParent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.settingAction {
-  width: 232px;
-  height: 203px;
+.customersLinkInner {
   flex-direction: row;
   padding: 0 var(--padding-10xl);
-  box-sizing: border-box;
 }
-.dashboardLink,
-.switchOrganizationAction {
+.customersLink,
+.navigationContent {
   flex-direction: column;
 }
-.dashboardLink {
+.customersLink {
   align-self: stretch;
   gap: var(--gap-12xl);
-  flex-shrink: 0;
 }
-.switchOrganizationAction {
-  position: absolute;
+.navigationContent {
   top: 139px;
-  left: 0;
   width: 100%;
-  height: 1245px;
-  padding: 0 0 var(--padding-1207xl);
-  box-sizing: border-box;
   gap: var(--gap-33xl);
 }
 .borrowerNav,
-.divider1 {
+.divider1,
+.navigationContent {
   position: absolute;
   left: 0;
 }
@@ -1606,9 +1584,10 @@
   opacity: 0.1;
 }
 .borrowerNav {
+  height: 100%;
   top: 0;
+  bottom: 0;
   width: 283px;
-  height: 1574px;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-darkslateblue-100);

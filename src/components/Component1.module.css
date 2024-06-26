@@ -1,0 +1,770 @@
+.base {
+  width: 1037px;
+  height: 910px;
+  position: relative;
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkslateblue-300);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.personalInformation {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.fullName,
+.graceEffiom {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.fullName {
+  text-transform: uppercase;
+  min-width: 69px;
+}
+.graceEffiom {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  min-width: 103px;
+}
+.fullNameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.maritalStatus,
+.single {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.maritalStatus {
+  text-transform: uppercase;
+  min-width: 99px;
+}
+.single {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  min-width: 48px;
+}
+.frameGroup,
+.maritalStatusParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameGroup {
+  padding: 0 var(--padding-2xs) 0 0;
+  gap: var(--gap-11xl);
+}
+.contactInformationValues,
+.phoneNumber {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.phoneNumber {
+  text-transform: uppercase;
+  min-width: 97px;
+}
+.contactInformationValues {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  min-width: 106px;
+}
+.guarantorContactDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.children,
+.none {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.children {
+  text-transform: uppercase;
+  min-width: 61px;
+}
+.none {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  min-width: 41px;
+}
+.guarantorContactDetailsParent,
+.guarantorPersonalDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.guarantorContactDetailsParent {
+  padding: 0 var(--padding-xs) 0 0;
+  gap: var(--gap-11xl);
+}
+.emailAddress {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 1;
+}
+.gracegmailcom {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 1;
+}
+.emailAddressParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.typeOfResidence {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 121px;
+  z-index: 1;
+}
+.parentsApartment {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  z-index: 1;
+}
+.frameContainer,
+.typeOfResidenceParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameContainer {
+  gap: var(--gap-11xl);
+}
+.bvn,
+.div {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.bvn {
+  text-transform: uppercase;
+  min-width: 25px;
+}
+.div {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  min-width: 106px;
+}
+.bvnParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  gap: var(--gap-5xs);
+}
+.female,
+.gender {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.gender {
+  text-transform: uppercase;
+  min-width: 50px;
+}
+.female {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  min-width: 57px;
+}
+.frameParent,
+.genderParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent {
+  width: 911px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-xs);
+  color: var(--color-slategray-100);
+}
+.divider {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkslateblue-100);
+  box-sizing: border-box;
+  opacity: 0.1;
+  z-index: 1;
+}
+.educationAndEmployment {
+  font-weight: 500;
+}
+.bsc,
+.educationAndEmployment,
+.levelOfEducation {
+  position: relative;
+  z-index: 1;
+}
+.levelOfEducation {
+  text-transform: uppercase;
+}
+.bsc {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  display: inline-block;
+  min-width: 35px;
+}
+.guarantorEmploymentInformati {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.officeEmail {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 84px;
+  z-index: 1;
+}
+.gracelendsqrcom {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 1;
+}
+.guarantorEmploymentDetails,
+.guarantorFinancialInformatio {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.guarantorEmploymentDetails {
+  gap: var(--gap-11xl);
+}
+.employed,
+.employmentStatus {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.employmentStatus {
+  text-transform: uppercase;
+  min-width: 129px;
+}
+.employed {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  min-width: 78px;
+}
+.employmentStatusParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.div1,
+.monthlyIncome {
+  position: relative;
+  z-index: 1;
+}
+.monthlyIncome {
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 108px;
+}
+.div1 {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+}
+.guarantorEmploymentDetails1,
+.monthlyIncomeParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.guarantorEmploymentDetails1 {
+  gap: var(--gap-11xl);
+}
+.sectorOfEmployment {
+  position: relative;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.fintech {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  display: inline-block;
+  min-width: 59px;
+  z-index: 1;
+}
+.sectorOfEmploymentParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.div2,
+.loanRepayment {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.loanRepayment {
+  text-transform: uppercase;
+  min-width: 107px;
+}
+.div2 {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  min-width: 54px;
+}
+.guarantorEmploymentDetails2,
+.loanRepaymentParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.guarantorEmploymentDetails2 {
+  padding: 0 var(--padding-6xs) 0 0;
+  gap: var(--gap-11xl);
+}
+.durationOfEmployment {
+  position: relative;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.years {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  display: inline-block;
+  min-width: 56px;
+  z-index: 1;
+}
+.durationOfEmploymentParent,
+.guarantorEmploymentDetailsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.guarantorEmploymentDetailsParent {
+  width: 918px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-xs);
+  color: var(--color-slategray-100);
+}
+.divider1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkslateblue-100);
+  box-sizing: border-box;
+  opacity: 0.1;
+  z-index: 1;
+}
+.socials {
+  font-weight: 500;
+  min-width: 56px;
+}
+.graceEffiom1,
+.socials,
+.twitter {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.twitter {
+  text-transform: uppercase;
+  min-width: 53px;
+}
+.graceEffiom1 {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  min-width: 118px;
+}
+.guarantorSocialMediaDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.facebook,
+.graceEffiom2 {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.facebook {
+  text-transform: uppercase;
+  min-width: 64px;
+}
+.graceEffiom2 {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  min-width: 103px;
+}
+.guarantorSocialMediaDetails1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi) 0 0;
+  gap: var(--gap-5xs);
+}
+.graceEffiom3,
+.instagram {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.instagram {
+  text-transform: uppercase;
+  min-width: 69px;
+}
+.graceEffiom3 {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  min-width: 118px;
+}
+.guarantorSocialMediaDetails2,
+.guarantorSocialMediaDetailsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.guarantorSocialMediaDetailsParent {
+  width: 526px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-xs);
+  color: var(--color-slategray-100);
+}
+.divider2 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkslateblue-100);
+  box-sizing: border-box;
+  opacity: 0.1;
+  z-index: 1;
+}
+.guarantor {
+  font-weight: 500;
+  min-width: 79px;
+}
+.debbyOgana,
+.fullName1,
+.guarantor {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.fullName1 {
+  text-transform: uppercase;
+  min-width: 69px;
+}
+.debbyOgana {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  min-width: 103px;
+}
+.fullNameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.emptyValue,
+.phoneNumber1 {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.phoneNumber1 {
+  text-transform: uppercase;
+  min-width: 97px;
+}
+.emptyValue {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  min-width: 106px;
+}
+.phoneNumberParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.emailAddress1 {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 1;
+}
+.debbygmailcom {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 1;
+}
+.emailAddressGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.relationship,
+.sister {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.relationship {
+  text-transform: uppercase;
+  min-width: 86px;
+}
+.sister {
+  text-decoration: none;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: inherit;
+  min-width: 46px;
+}
+.frameDiv,
+.relationshipParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameDiv {
+  width: 734px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-xs);
+  color: var(--color-slategray-100);
+}
+.divider3,
+.text {
+  position: relative;
+  z-index: 1;
+}
+.divider3 {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-darkslateblue-100);
+  box-sizing: border-box;
+  opacity: 0.1;
+}
+.text {
+  width: 0;
+  height: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.infoDividers {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl-5);
+  max-width: 100%;
+}
+.debbyOgana1,
+.fullName2 {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.fullName2 {
+  text-transform: uppercase;
+  min-width: 69px;
+}
+.debbyOgana1 {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  min-width: 104px;
+}
+.fullNameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: var(--gap-5xs);
+}
+.div3,
+.phoneNumber2 {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.phoneNumber2 {
+  text-transform: uppercase;
+  min-width: 97px;
+}
+.div3 {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  min-width: 106px;
+}
+.phoneNumberGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  gap: var(--gap-5xs);
+}
+.emailAddress2 {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 1;
+}
+.debbygmailcom1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 1;
+}
+.emailAddressContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.relationship1,
+.sister1 {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.relationship1 {
+  text-transform: uppercase;
+  min-width: 86px;
+}
+.sister1 {
+  text-decoration: none;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: inherit;
+  min-width: 46px;
+}
+.frameParent1,
+.relationshipGroup,
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent1,
+.section {
+  width: 734px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-xs);
+  color: var(--color-slategray-100);
+}
+.section {
+  position: absolute;
+  top: 530px;
+  left: 343px;
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkslateblue-300);
+  box-sizing: border-box;
+  width: 1037px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-10xl) var(--padding-25xl);
+  gap: var(--gap-30xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--font-work-sans);
+}
+@media screen and (max-width: 1050px) {
+  .guarantorEmploymentDetailsParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameDiv,
+  .frameParent,
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .guarantorSocialMediaDetailsParent {
+    flex-wrap: wrap;
+  }
+}

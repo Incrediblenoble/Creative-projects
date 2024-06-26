@@ -1,0 +1,192 @@
+.userDetails {
+  margin: 0;
+  position: absolute;
+  top: 216px;
+  left: 343px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.backToUsers {
+  position: absolute;
+  top: 165px;
+  left: 386px;
+  font-size: var(--font-size-base);
+  color: var(--color-slategray-100);
+  display: inline-block;
+  min-width: 109px;
+}
+.npBack30077500000001Icon {
+  position: absolute;
+  top: 160px;
+  left: 343px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.base {
+  height: 40px;
+  width: 170px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-mediumturquoise-100);
+  box-sizing: border-box;
+  display: none;
+}
+.dashboard {
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-work-sans);
+  color: var(--color-mediumturquoise-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 127px;
+  z-index: 1;
+}
+.btn {
+  cursor: pointer;
+  border: 1px solid var(--color-mediumturquoise-100);
+  padding: var(--padding-3xs) 21px var(--padding-4xs) 22px;
+  background-color: transparent;
+  position: absolute;
+  top: 210px;
+  left: 1210px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.btn:hover {
+  background-color: rgba(5, 153, 153, 0.09);
+  border: 1px solid #059999;
+}
+.base1,
+.btn1:hover,
+.btn:hover {
+  box-sizing: border-box;
+}
+.base1 {
+  height: 40px;
+  width: 170px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-crimson-100);
+  display: none;
+}
+.dashboard1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-work-sans);
+  color: var(--color-crimson-100);
+  text-align: center;
+  z-index: 1;
+}
+.btn1 {
+  cursor: pointer;
+  border: 1px solid var(--color-crimson-100);
+  padding: var(--padding-3xs) var(--padding-base) var(--padding-4xs);
+  background-color: transparent;
+  position: absolute;
+  top: 210px;
+  left: 1020px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.btn1:hover {
+  background-color: rgba(255, 41, 97, 0.09);
+  border: 1px solid #ff2961;
+}
+.text,
+.userDetailsParent {
+  align-self: stretch;
+  position: relative;
+  flex-shrink: 0;
+}
+.userDetailsParent {
+  height: 1574px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--font-work-sans);
+}
+.text {
+  width: 0;
+  font-weight: 500;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.pageTitleContainer,
+.usersGeneralDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.pageTitleContainer {
+  align-self: stretch;
+  height: 19px;
+  flex-direction: row;
+  padding: 0 0 0 1471px;
+  flex-shrink: 0;
+}
+.usersGeneralDetails {
+  width: 100%;
+  height: 1593px;
+  position: relative;
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 var(--padding-lgi);
+  gap: 102px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: #000;
+  font-family: var(--font-work-sans);
+}
+@media screen and (max-width: 1200px) {
+  .pageTitleContainer {
+    padding-left: 735px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .userDetailsParent {
+    height: auto;
+    min-height: 1574;
+  }
+  .pageTitleContainer {
+    padding-left: 367px;
+    box-sizing: border-box;
+  }
+  .usersGeneralDetails {
+    height: auto;
+    gap: var(--gap-32xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .userDetails {
+    font-size: var(--font-size-lgi);
+  }
+  .pageTitleContainer {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .usersGeneralDetails {
+    gap: 25px;
+  }
+}

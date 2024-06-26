@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import styles from "./BorrowerNav.module.css";
+import styles from "./BorrowerNav1.module.css";
 
 export type BorrowerNavType = {
   className?: string;
@@ -11,11 +11,11 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
   return (
     <div className={[styles.borrowerNav, className].join(" ")}>
       <div className={styles.base} />
-      <div className={styles.navContent}>
+      <div className={styles.navFooterParent}>
         <div className={styles.navFooter}>
           <div className={styles.divider} />
-          <div className={styles.logoutActionWrapper}>
-            <div className={styles.logoutAction}>
+          <div className={styles.wrapper}>
+            <div className={styles.div}>
               <img
                 className={styles.npLogout11537380000001Icon}
                 alt=""
@@ -24,6 +24,7 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
               <div className={styles.logoutIcon}>
                 <img
                   className={styles.signOut1Icon}
+                  loading="lazy"
                   alt=""
                   src="/signout-1.svg"
                 />
@@ -34,10 +35,10 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
         </div>
         <div className={styles.v120}>v1.2.0</div>
       </div>
-      <div className={styles.switchOrganizationAction}>
-        <div className={styles.switchOrganizationContent}>
-          <div className={styles.div}>
-            <div className={styles.switchOrganizationIcon}>
+      <div className={styles.navigationContent}>
+        <div className={styles.switcherButton}>
+          <div className={styles.organizationSwitcherContent}>
+            <div className={styles.nextOrganizationButton}>
               <img
                 className={styles.briefcase1Icon}
                 alt=""
@@ -50,7 +51,7 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
               src="/np-business-2987477-000000-1.svg"
             />
             <a className={styles.switchOrganization}>Switch Organization</a>
-            <div className={styles.npNext22368260000002Wrapper}>
+            <div className={styles.nextOrganization}>
               <img
                 className={styles.npNext22368260000002Icon}
                 alt=""
@@ -59,19 +60,14 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
             </div>
           </div>
         </div>
-        <div className={styles.dashboardLink}>
+        <div className={styles.customersLink}>
           <div className={styles.navLinkWrapper}>
             <div className={styles.navLink}>
               <div className={styles.base1} />
               <div className={styles.stripe} />
               <div className={styles.home}>
-                <div className={styles.dashboardGlyph}>
-                  <img
-                    className={styles.home1Icon}
-                    loading="lazy"
-                    alt=""
-                    src="/home-1.svg"
-                  />
+                <div className={styles.homeIcon}>
+                  <img className={styles.home1Icon} alt="" src="/home-1.svg" />
                 </div>
                 <img
                   className={styles.npDashboard31641900000001Icon}
@@ -82,17 +78,17 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
               </div>
             </div>
           </div>
-          <div className={styles.customerLink}>
+          <div className={styles.frameParent}>
             <div className={styles.customersWrapper}>
               <div className={styles.customers}>CUSTOMERS</div>
             </div>
-            <div className={styles.usersAction}>
+            <div className={styles.usersLink}>
               <div className={styles.navLink1}>
                 <div className={styles.base2} />
                 <div className={styles.stripe1} />
-                <div className={styles.userIcon}>
+                <div className={styles.usersIcon}>
                   <div className={styles.users}>
-                    <div className={styles.userImage}>
+                    <div className={styles.userFriends1Wrapper}>
                       <img
                         className={styles.userFriends1Icon}
                         alt=""
@@ -108,7 +104,7 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                   <div className={styles.base3} />
                   <div className={styles.stripe2} />
                   <div className={styles.users2}>
-                    <div className={styles.guarantorGlyph}>
+                    <div className={styles.users1Wrapper}>
                       <img
                         className={styles.users1Icon}
                         alt=""
@@ -130,14 +126,14 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
               </div>
             </div>
           </div>
-          <div className={styles.loanAction}>
-            <div className={styles.loanIconParent}>
-              <div className={styles.loanIcon}>
+          <div className={styles.businessesContentWrapper}>
+            <div className={styles.businessesContent}>
+              <div className={styles.navLinkFrame}>
                 <div className={styles.navLink3}>
                   <div className={styles.base4} />
                   <div className={styles.stripe3} />
                   <div className={styles.loans}>
-                    <div className={styles.loanLabel}>
+                    <div className={styles.sackIcon}>
                       <img
                         className={styles.sack1Icon}
                         loading="lazy"
@@ -158,7 +154,7 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                 <div className={styles.base5} />
                 <div className={styles.stripe4} />
                 <div className={styles.loans2}>
-                  <div className={styles.modelLabel}>
+                  <div className={styles.handshakeRegular1Wrapper}>
                     <img
                       className={styles.handshakeRegular1Icon}
                       loading="lazy"
@@ -174,15 +170,16 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                   <div className={styles.decisionModels}>Decision Models</div>
                 </div>
               </div>
-              <div className={styles.userListContent}>
-                <div className={styles.userLists}>
+              <div className={styles.userLoans}>
+                <div className={styles.userLoanOptions}>
                   <div className={styles.navLink5}>
                     <div className={styles.base6} />
                     <div className={styles.stripe5} />
                     <div className={styles.savings}>
-                      <div className={styles.savingIcon}>
+                      <div className={styles.piggyBankIcon}>
                         <img
                           className={styles.piggyBank1Icon}
+                          loading="lazy"
                           alt=""
                           src="/piggybank-1.svg"
                         />
@@ -215,7 +212,7 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                         alt=""
                         src="/np-money-1346149-000000-1.svg"
                       />
-                      <div className={styles.loanRequestLabel}>
+                      <div className={styles.loanRequestsWrapper}>
                         <div className={styles.loanRequests}>Loan Requests</div>
                       </div>
                     </div>
@@ -224,9 +221,10 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                     <div className={styles.base8} />
                     <div className={styles.stripe7} />
                     <div className={styles.users3}>
-                      <div className={styles.userTypeIcons}>
+                      <div className={styles.checkTimesIcon}>
                         <img
                           className={styles.userCheck1Icon}
+                          loading="lazy"
                           alt=""
                           src="/usercheck-1.svg"
                         />
@@ -246,6 +244,7 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                       <div className={styles.userTimes1Wrapper}>
                         <img
                           className={styles.userTimes1Icon}
+                          loading="lazy"
                           alt=""
                           src="/usertimes-1.svg"
                         />
@@ -262,18 +261,18 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
               </div>
             </div>
           </div>
-          <div className={styles.businessAction}>
-            <div className={styles.businessLabelParent}>
-              <div className={styles.businessLabel}>
+          <div className={styles.settingsContentWrapper}>
+            <div className={styles.settingsContent}>
+              <div className={styles.businessesWrapper}>
                 <div className={styles.businesses}>BUSINESSES</div>
               </div>
-              <div className={styles.businessContent}>
-                <div className={styles.businessNavigation}>
+              <div className={styles.businessOptions}>
+                <div className={styles.businessLinks}>
                   <div className={styles.navLink9}>
                     <div className={styles.base10} />
                     <div className={styles.stripe9} />
                     <div className={styles.organization}>
-                      <div className={styles.businessIcons}>
+                      <div className={styles.briefcase1Wrapper}>
                         <img
                           className={styles.briefcase1Icon1}
                           loading="lazy"
@@ -300,12 +299,12 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                       alt=""
                       src="/group-104.svg"
                     />
-                    <div className={styles.loanProductsLabel}>
+                    <div className={styles.loanProductsWrapper}>
                       <div className={styles.loanProducts1}>Loan Products</div>
                     </div>
                   </div>
                 </div>
-                <div className={styles.businessNavigation1}>
+                <div className={styles.businessLinks1}>
                   <div className={styles.navLink11}>
                     <div className={styles.base12} />
                     <div className={styles.stripe11} />
@@ -324,7 +323,7 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                     </div>
                   </div>
                 </div>
-                <div className={styles.businessNavigation2}>
+                <div className={styles.businessLinks2}>
                   <div className={styles.navLink12}>
                     <div className={styles.base13} />
                     <div className={styles.stripe12} />
@@ -332,6 +331,7 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                       <div className={styles.coinsSolid1Wrapper}>
                         <img
                           className={styles.coinsSolid1Icon}
+                          loading="lazy"
                           alt=""
                           src="/coinssolid-1.svg"
                         />
@@ -347,7 +347,7 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                     </div>
                   </div>
                 </div>
-                <div className={styles.businessNavigation3}>
+                <div className={styles.businessServices}>
                   <div className={styles.navLink13}>
                     <div className={styles.base14} />
                     <div className={styles.stripe13} />
@@ -364,14 +364,15 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                     </div>
                   </div>
                 </div>
-                <div className={styles.servicesAction}>
+                <div className={styles.businessLinks3}>
                   <div className={styles.navLink14}>
                     <div className={styles.base15} />
                     <div className={styles.stripe14} />
                     <div className={styles.services}>
-                      <div className={styles.servicesGlyph}>
+                      <div className={styles.galaxy1Wrapper}>
                         <img
                           className={styles.galaxy1Icon}
+                          loading="lazy"
                           alt=""
                           src="/galaxy-1.svg"
                         />
@@ -390,7 +391,7 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                     </div>
                   </div>
                 </div>
-                <div className={styles.businessNavigation4}>
+                <div className={styles.businessLinks4}>
                   <div className={styles.navLink15}>
                     <div className={styles.base16} />
                     <div className={styles.stripe15} />
@@ -414,7 +415,7 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                     </div>
                   </div>
                 </div>
-                <div className={styles.businessNavigation5}>
+                <div className={styles.businessLinks5}>
                   <div className={styles.navLink16}>
                     <div className={styles.base17} />
                     <div className={styles.stripe16} />
@@ -436,7 +437,7 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                     </div>
                   </div>
                 </div>
-                <div className={styles.businessNavigation6}>
+                <div className={styles.businessesLink}>
                   <div className={styles.navLink17}>
                     <div className={styles.base18} />
                     <div className={styles.stripe17} />
@@ -461,15 +462,15 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
               </div>
             </div>
           </div>
-          <div className={styles.settingAction}>
+          <div className={styles.customersLinkInner}>
             <div className={styles.settingsParent}>
               <div className={styles.settings}>SETTINGS</div>
-              <div className={styles.settingContent}>
+              <div className={styles.frameDiv}>
                 <div className={styles.navLink18}>
                   <div className={styles.base19} />
                   <div className={styles.stripe18} />
                   <div className={styles.preferences}>
-                    <div className={styles.preferenceIcon}>
+                    <div className={styles.slidersH1Wrapper}>
                       <img
                         className={styles.slidersH1Icon}
                         loading="lazy"
@@ -487,12 +488,12 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                   </div>
                 </div>
               </div>
-              <div className={styles.preferenceLabel}>
+              <div className={styles.organizationLink}>
                 <div className={styles.navLink19}>
                   <div className={styles.base20} />
                   <div className={styles.stripe19} />
                   <div className={styles.organization3}>
-                    <div className={styles.pricingBadge}>
+                    <div className={styles.badgePercent1Wrapper}>
                       <img
                         className={styles.badgePercent1Icon}
                         loading="lazy"
@@ -535,14 +536,15 @@ const BorrowerNav: FunctionComponent<BorrowerNavType> = ({
                     </div>
                   </div>
                 </div>
-                <div className={styles.systemMessagesLink}>
+                <div className={styles.systemsMessage}>
                   <div className={styles.navLink21}>
                     <div className={styles.base22} />
                     <div className={styles.stripe21} />
                     <div className={styles.organization5}>
-                      <div className={styles.tires}>
+                      <div className={styles.tire1Wrapper}>
                         <img
                           className={styles.tire1Icon}
+                          loading="lazy"
                           alt=""
                           src="/tire-1.svg"
                         />

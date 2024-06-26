@@ -6,6 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
+import UsersGeneralDetails from "./pages/UsersGeneralDetails";
 
 function App() {
   const action = useNavigationType();
@@ -24,6 +25,10 @@ function App() {
 
     switch (pathname) {
       case "/":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/users-general-details":
         title = "";
         metaDescription = "";
         break;
@@ -46,6 +51,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Dashboard />} />
+      <Route path="/users-general-details" element={<UsersGeneralDetails />} />
     </Routes>
   );
 }
