@@ -1,0 +1,1725 @@
+.department-child {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  background-color: var(--white);
+  width: 260px;
+  height: 89px;
+}
+.group-child {
+  position: absolute;
+  height: 100%;
+  width: 27.47%;
+  top: 0;
+  right: 72.53%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.span {
+  color: #ff447c;
+}
+.unlimi {
+  position: absolute;
+  top: 3.3px;
+  left: 73.4px;
+  font-weight: 600;
+}
+.group-parent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.department-inner {
+  position: absolute;
+  height: 5.57%;
+  width: 14.33%;
+  top: 1.69%;
+  right: 84.28%;
+  bottom: 92.74%;
+  left: 1.39%;
+}
+.department-item,
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 260px;
+}
+.department-item {
+  background-color: var(--white);
+  width: 1180px;
+  height: 90px;
+}
+.rectangle-div {
+  background-color: #f0f1f6;
+  width: 1px;
+  height: 1006px;
+}
+.mask-group-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 34px;
+  object-fit: cover;
+}
+.deko {
+  position: absolute;
+  top: 7px;
+  left: 44px;
+  font-weight: 500;
+}
+.vector-icon {
+  position: absolute;
+  height: 22.65%;
+  width: 12.03%;
+  top: 38.24%;
+  right: 0;
+  bottom: 39.12%;
+  left: 87.97%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.mask-group-parent {
+  position: absolute;
+  top: 0;
+  left: 44px;
+  width: 111.4px;
+  height: 34px;
+}
+.div-child {
+  top: 2px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+}
+.div,
+.div-child,
+.div-item {
+  position: absolute;
+}
+.div {
+  top: 26px;
+  left: 1244px;
+  width: 155.4px;
+  height: 34px;
+  font-size: 16px;
+  color: #45464b;
+}
+.div-item {
+  top: 0;
+  left: 0;
+  border-radius: 7px;
+  border: 1px solid #cdcfd4;
+  box-sizing: border-box;
+  width: 264px;
+  height: 42px;
+}
+.search-by-patients,
+.shape-icon {
+  position: absolute;
+  top: 0;
+  left: 32px;
+}
+.shape-icon {
+  height: 100%;
+  width: 10.71%;
+  right: 89.29%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div1,
+.search-by-patients-parent {
+  position: absolute;
+  top: 13px;
+  left: 21px;
+  width: 168px;
+  height: 18px;
+}
+.div1 {
+  top: 24px;
+  left: 320px;
+  width: 264px;
+  height: 42px;
+  font-size: var(--font-size-sm);
+  color: #4f5867;
+}
+.frame-child {
+  align-self: stretch;
+  position: relative;
+  border-radius: 14px;
+  background-color: var(--white);
+  height: 745px;
+}
+.div-inner {
+  position: absolute;
+  top: 112px;
+  left: 0;
+  width: 1348px;
+  height: 711px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.department-list {
+  position: absolute;
+  top: 0;
+  left: 31.2px;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  display: inline-block;
+  width: 169.5px;
+}
+.frame-item {
+  width: 1349px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: -1px;
+  background-color: var(--primary-50);
+  height: 44px;
+  z-index: 0;
+}
+.description,
+.image,
+.name,
+.size,
+.sku,
+.sn,
+.title,
+.wages,
+.wages1 {
+  position: absolute;
+  top: 2px;
+  line-height: 16px;
+  font-weight: 600;
+  display: inline-block;
+}
+.sn {
+  left: 8px;
+  font-family: var(--text-text-sm-semi-bold);
+  width: 50px;
+}
+.description,
+.image,
+.name,
+.size,
+.sku,
+.title,
+.wages,
+.wages1 {
+  left: 61.5px;
+  width: 69px;
+}
+.description,
+.name,
+.size,
+.sku,
+.title,
+.wages,
+.wages1 {
+  left: 138px;
+  width: 97px;
+}
+.description,
+.name,
+.size,
+.title,
+.wages,
+.wages1 {
+  left: 212px;
+  width: 162px;
+}
+.description,
+.size,
+.title,
+.wages,
+.wages1 {
+  left: 374.5px;
+  width: 253px;
+}
+.description,
+.size,
+.wages,
+.wages1 {
+  left: 630px;
+  width: 231px;
+}
+.size,
+.wages,
+.wages1 {
+  left: 995px;
+  width: 113px;
+}
+.size,
+.wages1 {
+  left: 1108px;
+  width: 99px;
+}
+.size {
+  left: 1207px;
+  width: 106px;
+}
+.frame-inner {
+  position: absolute;
+  top: 1.5px;
+  left: -16px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--monochrome-nuetral-500);
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+}
+.brand,
+.sn-parent {
+  position: absolute;
+  margin: 0 !important;
+}
+.sn-parent {
+  width: 1324px;
+  top: 14px;
+  left: 24px;
+  height: 16px;
+  z-index: 1;
+}
+.brand {
+  width: 133px;
+  top: 16px;
+  left: 886px;
+  line-height: 16px;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 51px;
+  left: 0;
+  width: 1348px;
+  height: 43px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  color: var(--neutral-neutral-8);
+}
+.component-36-icon {
+  width: 1315px;
+  position: relative;
+  height: 53px;
+  z-index: 0;
+}
+.div3 {
+  position: absolute;
+  top: 11px;
+  left: 4px;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 44px;
+}
+.frame-icon {
+  position: absolute;
+  top: 1px;
+  left: 43px;
+  border-radius: var(--br-9xs);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.beauty-and-glamour,
+.div4,
+.div5,
+.div6,
+.div7,
+.gloss,
+.lorem-ipsum-dolor,
+.mg234567 {
+  position: absolute;
+  top: 11px;
+  left: 113.9px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 82px;
+}
+.beauty-and-glamour,
+.div4,
+.div5,
+.div6,
+.div7,
+.gloss,
+.lorem-ipsum-dolor {
+  left: 195.9px;
+  width: 163px;
+}
+.beauty-and-glamour,
+.div4,
+.div5,
+.div6,
+.div7,
+.lorem-ipsum-dolor {
+  left: 360px;
+  width: 175px;
+}
+.div4,
+.div5,
+.div6,
+.div7,
+.lorem-ipsum-dolor {
+  top: 1px;
+  left: 613px;
+  width: 214px;
+}
+.div4,
+.div5,
+.div6,
+.div7 {
+  top: 11px;
+  left: 979.9px;
+  width: 96px;
+}
+.div5,
+.div6,
+.div7 {
+  left: 1092px;
+  width: 89px;
+}
+.div6,
+.div7 {
+  left: 1190px;
+}
+.div7 {
+  left: 846.9px;
+  width: 83px;
+}
+.frame-child1 {
+  position: absolute;
+  top: 1px;
+  left: 1100.9px;
+  width: 4px;
+  height: 18px;
+}
+.group-item,
+.parent {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 1303px;
+  height: 40px;
+}
+.group-item {
+  top: 12.5px;
+  left: -0.5px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--monochrome-nuetral-500);
+  box-sizing: border-box;
+  width: 15.1px;
+  height: 15px;
+  overflow: hidden;
+}
+.frame-parent {
+  width: 1327px;
+  position: absolute;
+  margin: 0 !important;
+  top: 3px;
+  left: 0;
+  height: 40px;
+  z-index: 1;
+}
+.card {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.component-36-icon1 {
+  width: 1315px;
+  position: relative;
+  height: 53px;
+  z-index: 0;
+}
+.div8 {
+  position: absolute;
+  top: 11px;
+  left: 4px;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 44px;
+}
+.frame-child2 {
+  position: absolute;
+  top: 1px;
+  left: 43px;
+  border-radius: var(--br-9xs);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.beauty-and-glamour1,
+.div10,
+.div11,
+.div12,
+.div9,
+.gloss1,
+.lorem-ipsum-dolor1,
+.mg2345671 {
+  position: absolute;
+  top: 11px;
+  left: 113.9px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 82px;
+}
+.beauty-and-glamour1,
+.div10,
+.div11,
+.div12,
+.div9,
+.gloss1,
+.lorem-ipsum-dolor1 {
+  left: 195.9px;
+  width: 163px;
+}
+.beauty-and-glamour1,
+.div10,
+.div11,
+.div12,
+.div9,
+.lorem-ipsum-dolor1 {
+  left: 360px;
+  width: 175px;
+}
+.div10,
+.div11,
+.div12,
+.div9,
+.lorem-ipsum-dolor1 {
+  top: 1px;
+  left: 613px;
+  width: 214px;
+}
+.div10,
+.div11,
+.div12,
+.div9 {
+  top: 11px;
+  left: 979.9px;
+  width: 96px;
+}
+.div10,
+.div11,
+.div12 {
+  left: 1092px;
+  width: 89px;
+}
+.div11,
+.div12 {
+  left: 1190px;
+}
+.div12 {
+  left: 846.9px;
+  width: 83px;
+}
+.frame-child3 {
+  position: absolute;
+  top: 1px;
+  left: 1100.9px;
+  width: 4px;
+  height: 18px;
+}
+.group,
+.group-inner {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 1303px;
+  height: 40px;
+}
+.group-inner {
+  top: 12.5px;
+  left: -0.5px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--monochrome-nuetral-500);
+  box-sizing: border-box;
+  width: 15.1px;
+  height: 15px;
+  overflow: hidden;
+}
+.frame-group {
+  width: 1327px;
+  position: absolute;
+  margin: 0 !important;
+  top: 3px;
+  left: 0;
+  height: 40px;
+  z-index: 1;
+}
+.card1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.component-36-icon2 {
+  width: 1315px;
+  position: relative;
+  height: 53px;
+  z-index: 0;
+}
+.div13 {
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 44px;
+}
+.frame-child4 {
+  position: absolute;
+  top: 0;
+  left: 43px;
+  border-radius: var(--br-9xs);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.div14,
+.div15,
+.div16,
+.div17,
+.gadget,
+.gloss2,
+.lorem-ipsum-dolor2,
+.mg2345672 {
+  position: absolute;
+  top: 12px;
+  left: 113.9px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 82px;
+}
+.div14,
+.div15,
+.div16,
+.div17,
+.gadget,
+.gloss2,
+.lorem-ipsum-dolor2 {
+  top: 10px;
+  left: 195.9px;
+  width: 163px;
+}
+.div14,
+.div15,
+.div16,
+.div17,
+.gadget,
+.lorem-ipsum-dolor2 {
+  top: 9px;
+  left: 360px;
+  width: 175px;
+}
+.div14,
+.div15,
+.div16,
+.div17,
+.lorem-ipsum-dolor2 {
+  top: 0;
+  left: 613px;
+}
+.div14,
+.div15,
+.div16,
+.div17 {
+  top: 7px;
+  left: 979.9px;
+  width: 96px;
+}
+.div15,
+.div16,
+.div17 {
+  left: 1092px;
+  width: 89px;
+}
+.div16,
+.div17 {
+  left: 1190px;
+}
+.div17 {
+  top: 9px;
+  left: 846.9px;
+  width: 83px;
+}
+.frame-child5 {
+  position: absolute;
+  top: 1px;
+  left: 1100.9px;
+  width: 4px;
+  height: 18px;
+}
+.container,
+.group-child1 {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 1303px;
+  height: 40px;
+}
+.group-child1 {
+  top: 12.5px;
+  left: -0.5px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--monochrome-nuetral-500);
+  box-sizing: border-box;
+  width: 15.1px;
+  height: 15px;
+  overflow: hidden;
+}
+.frame-container {
+  width: 1327px;
+  position: absolute;
+  margin: 0 !important;
+  top: 3px;
+  left: 0;
+  height: 40px;
+  z-index: 1;
+}
+.card2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.component-36-icon3 {
+  width: 1315px;
+  position: relative;
+  height: 53px;
+  z-index: 0;
+}
+.div18 {
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 44px;
+}
+.frame-child6 {
+  position: absolute;
+  top: 0;
+  left: 43px;
+  border-radius: var(--br-9xs);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.div19,
+.div20,
+.div21,
+.div22,
+.gloss3,
+.lorem-ipsum-dolor3,
+.mg2345673,
+.shoe {
+  position: absolute;
+  top: 12px;
+  left: 113.9px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 82px;
+}
+.div19,
+.div20,
+.div21,
+.div22,
+.gloss3,
+.lorem-ipsum-dolor3,
+.shoe {
+  top: 10px;
+  left: 195.9px;
+  width: 163px;
+}
+.div19,
+.div20,
+.div21,
+.div22,
+.lorem-ipsum-dolor3,
+.shoe {
+  top: 9px;
+  left: 360px;
+  width: 175px;
+}
+.div19,
+.div20,
+.div21,
+.div22,
+.lorem-ipsum-dolor3 {
+  top: 0;
+  left: 613px;
+  width: 214px;
+}
+.div19,
+.div20,
+.div21,
+.div22 {
+  top: 7px;
+  left: 979.9px;
+  width: 96px;
+}
+.div20,
+.div21,
+.div22 {
+  left: 1092px;
+  width: 89px;
+}
+.div21,
+.div22 {
+  left: 1190px;
+}
+.div22 {
+  top: 9px;
+  left: 846.9px;
+  width: 83px;
+}
+.frame-child7 {
+  position: absolute;
+  top: 1px;
+  left: 1100.9px;
+  width: 4px;
+  height: 18px;
+}
+.group-child2,
+.parent1 {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 1303px;
+  height: 40px;
+}
+.group-child2 {
+  top: 12.5px;
+  left: -0.5px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--monochrome-nuetral-500);
+  box-sizing: border-box;
+  width: 15.1px;
+  height: 15px;
+  overflow: hidden;
+}
+.group-div {
+  width: 1327px;
+  position: absolute;
+  margin: 0 !important;
+  top: 3px;
+  left: 0;
+  height: 40px;
+  z-index: 1;
+}
+.card3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.component-36-icon4 {
+  width: 1315px;
+  position: relative;
+  height: 53px;
+  z-index: 0;
+}
+.div23 {
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 44px;
+}
+.frame-child8 {
+  position: absolute;
+  top: 0;
+  left: 43px;
+  border-radius: var(--br-9xs);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.cream,
+.div24,
+.div25,
+.div26,
+.div27,
+.gloss4,
+.lorem-ipsum-dolor4,
+.mg2345674 {
+  position: absolute;
+  top: 12px;
+  left: 113.9px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 82px;
+}
+.cream,
+.div24,
+.div25,
+.div26,
+.div27,
+.gloss4,
+.lorem-ipsum-dolor4 {
+  top: 10px;
+  left: 195.9px;
+  width: 163px;
+}
+.cream,
+.div24,
+.div25,
+.div26,
+.div27,
+.lorem-ipsum-dolor4 {
+  top: 9px;
+  left: 360px;
+  width: 175px;
+}
+.div24,
+.div25,
+.div26,
+.div27,
+.lorem-ipsum-dolor4 {
+  top: -5px;
+  left: 613px;
+  width: 214px;
+}
+.div24,
+.div25,
+.div26,
+.div27 {
+  top: 7px;
+  left: 979.9px;
+  width: 96px;
+}
+.div25,
+.div26,
+.div27 {
+  left: 1092px;
+  width: 89px;
+}
+.div26,
+.div27 {
+  left: 1190px;
+}
+.div27 {
+  top: 9px;
+  left: 846.9px;
+  width: 83px;
+}
+.frame-child9 {
+  position: absolute;
+  top: 1px;
+  left: 1100.9px;
+  width: 4px;
+  height: 18px;
+}
+.group-child3,
+.parent2 {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 1303px;
+  height: 40px;
+}
+.group-child3 {
+  top: 12.5px;
+  left: -0.5px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--monochrome-nuetral-500);
+  box-sizing: border-box;
+  width: 15.1px;
+  height: 15px;
+  overflow: hidden;
+}
+.frame-parent1 {
+  width: 1327px;
+  position: absolute;
+  margin: 0 !important;
+  top: 3px;
+  left: 0;
+  height: 40px;
+  z-index: 1;
+}
+.card4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.component-36-icon5 {
+  width: 1315px;
+  position: relative;
+  height: 53px;
+  z-index: 0;
+}
+.div28 {
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 44px;
+}
+.frame-child10 {
+  position: absolute;
+  top: 0;
+  left: 43px;
+  border-radius: var(--br-9xs);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.div29,
+.div30,
+.div31,
+.div32,
+.gloss5,
+.lorem-ipsum-dolor5,
+.lotions,
+.mg2345675 {
+  position: absolute;
+  top: 12px;
+  left: 113.9px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 82px;
+}
+.div29,
+.div30,
+.div31,
+.div32,
+.gloss5,
+.lorem-ipsum-dolor5,
+.lotions {
+  top: 10px;
+  left: 195.9px;
+  width: 163px;
+}
+.div29,
+.div30,
+.div31,
+.div32,
+.lorem-ipsum-dolor5,
+.lotions {
+  top: 9px;
+  left: 360px;
+  width: 175px;
+}
+.div29,
+.div30,
+.div31,
+.div32,
+.lorem-ipsum-dolor5 {
+  top: -5px;
+  left: 613px;
+  width: 214px;
+}
+.div29,
+.div30,
+.div31,
+.div32 {
+  top: 7px;
+  left: 979.9px;
+  width: 96px;
+}
+.div30,
+.div31,
+.div32 {
+  left: 1092px;
+  width: 89px;
+}
+.div31,
+.div32 {
+  left: 1190px;
+}
+.div32 {
+  top: 9px;
+  left: 846.9px;
+  width: 83px;
+}
+.frame-child11 {
+  position: absolute;
+  top: 1px;
+  left: 1100.9px;
+  width: 4px;
+  height: 18px;
+}
+.group-child4,
+.parent3 {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 1303px;
+  height: 40px;
+}
+.group-child4 {
+  top: 12.5px;
+  left: -0.5px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--monochrome-nuetral-500);
+  box-sizing: border-box;
+  width: 15.1px;
+  height: 15px;
+  overflow: hidden;
+}
+.frame-parent2 {
+  width: 1327px;
+  position: absolute;
+  margin: 0 !important;
+  top: 3px;
+  left: 0;
+  height: 40px;
+  z-index: 1;
+}
+.card5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.component-36-icon6 {
+  width: 1315px;
+  position: relative;
+  height: 53px;
+  z-index: 0;
+}
+.div33 {
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 44px;
+}
+.frame-child12 {
+  position: absolute;
+  top: 0;
+  left: 43px;
+  border-radius: var(--br-9xs);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.mg2345676 {
+  position: absolute;
+  top: 12px;
+  left: 113.9px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 82px;
+}
+.beauty-and-glamour2,
+.div34,
+.div35,
+.div36,
+.div37,
+.gloss6,
+.lorem-ipsum-dolor6 {
+  position: absolute;
+  top: 10px;
+  left: 195.9px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 163px;
+}
+.beauty-and-glamour2,
+.div34,
+.div35,
+.div36,
+.div37,
+.lorem-ipsum-dolor6 {
+  top: 9px;
+  left: 360px;
+  width: 175px;
+}
+.div34,
+.div35,
+.div36,
+.div37,
+.lorem-ipsum-dolor6 {
+  top: -5px;
+  left: 613px;
+  width: 214px;
+}
+.div34,
+.div35,
+.div36,
+.div37 {
+  top: 7px;
+  left: 979.9px;
+  width: 96px;
+}
+.div35,
+.div36,
+.div37 {
+  left: 1092px;
+  width: 89px;
+}
+.div36,
+.div37 {
+  left: 1190px;
+}
+.div37 {
+  top: 9px;
+  left: 846.9px;
+  width: 83px;
+}
+.frame-child13 {
+  position: absolute;
+  top: 1px;
+  left: 1100.9px;
+  width: 4px;
+  height: 18px;
+}
+.group-child5,
+.parent4 {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 1303px;
+  height: 40px;
+}
+.group-child5 {
+  top: 12.5px;
+  left: -0.5px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--monochrome-nuetral-500);
+  box-sizing: border-box;
+  width: 15.1px;
+  height: 15px;
+  overflow: hidden;
+}
+.frame-parent3 {
+  width: 1327px;
+  position: absolute;
+  margin: 0 !important;
+  top: 3px;
+  left: 0;
+  height: 40px;
+  z-index: 1;
+}
+.card6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.component-36-icon7 {
+  width: 1315px;
+  position: relative;
+  height: 53px;
+  z-index: 0;
+}
+.div38 {
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 44px;
+}
+.frame-child14 {
+  position: absolute;
+  top: 0;
+  left: 43px;
+  border-radius: var(--br-9xs);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.div39,
+.div40,
+.div41,
+.div42,
+.gloss7,
+.lorem-ipsum-dolor7,
+.mg2345677,
+.watch {
+  position: absolute;
+  top: 12px;
+  left: 113.9px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 82px;
+}
+.div39,
+.div40,
+.div41,
+.div42,
+.gloss7,
+.lorem-ipsum-dolor7,
+.watch {
+  top: 10px;
+  left: 195.9px;
+  width: 163px;
+}
+.div39,
+.div40,
+.div41,
+.div42,
+.lorem-ipsum-dolor7,
+.watch {
+  top: 9px;
+  left: 360px;
+  width: 175px;
+}
+.div39,
+.div40,
+.div41,
+.div42,
+.lorem-ipsum-dolor7 {
+  top: -5px;
+  left: 613px;
+  width: 214px;
+}
+.div39,
+.div40,
+.div41,
+.div42 {
+  top: 7px;
+  left: 979.9px;
+  width: 96px;
+}
+.div40,
+.div41,
+.div42 {
+  left: 1092px;
+  width: 89px;
+}
+.div41,
+.div42 {
+  left: 1190px;
+}
+.div42 {
+  top: 9px;
+  left: 846.9px;
+  width: 83px;
+}
+.frame-child15 {
+  position: absolute;
+  top: 1px;
+  left: 1100.9px;
+  width: 4px;
+  height: 18px;
+}
+.group-child6,
+.parent5 {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 1303px;
+  height: 40px;
+}
+.group-child6 {
+  top: 12.5px;
+  left: -0.5px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--monochrome-nuetral-500);
+  box-sizing: border-box;
+  width: 15.1px;
+  height: 15px;
+  overflow: hidden;
+}
+.frame-parent4 {
+  width: 1327px;
+  position: absolute;
+  margin: 0 !important;
+  top: 3px;
+  left: 0;
+  height: 40px;
+  z-index: 1;
+}
+.card7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.component-36-icon8 {
+  width: 1315px;
+  position: relative;
+  height: 53px;
+  z-index: 0;
+}
+.div43 {
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 44px;
+}
+.frame-child16 {
+  position: absolute;
+  top: 0;
+  left: 43px;
+  border-radius: var(--br-9xs);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.mg2345678 {
+  position: absolute;
+  top: 12px;
+  left: 113.9px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 82px;
+}
+.beauty-and-glamour3,
+.div44,
+.div45,
+.div46,
+.div47,
+.gloss8,
+.lorem-ipsum-dolor8 {
+  position: absolute;
+  top: 10px;
+  left: 195.9px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 163px;
+}
+.beauty-and-glamour3,
+.div44,
+.div45,
+.div46,
+.div47,
+.lorem-ipsum-dolor8 {
+  top: 9px;
+  left: 360px;
+  width: 175px;
+}
+.div44,
+.div45,
+.div46,
+.div47,
+.lorem-ipsum-dolor8 {
+  top: -5px;
+  left: 613px;
+  width: 214px;
+}
+.div44,
+.div45,
+.div46,
+.div47 {
+  top: 7px;
+  left: 979.9px;
+  width: 96px;
+}
+.div45,
+.div46,
+.div47 {
+  left: 1092px;
+  width: 89px;
+}
+.div46,
+.div47 {
+  left: 1190px;
+}
+.div47 {
+  top: 9px;
+  left: 846.9px;
+  width: 83px;
+}
+.frame-child17 {
+  position: absolute;
+  top: 1px;
+  left: 1100.9px;
+  width: 4px;
+  height: 18px;
+}
+.group-child7,
+.parent6 {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 1303px;
+  height: 40px;
+}
+.group-child7 {
+  top: 12.5px;
+  left: -0.5px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--monochrome-nuetral-500);
+  box-sizing: border-box;
+  width: 15.1px;
+  height: 15px;
+  overflow: hidden;
+}
+.frame-parent5 {
+  width: 1327px;
+  position: absolute;
+  margin: 0 !important;
+  top: 3px;
+  left: 0;
+  height: 40px;
+  z-index: 1;
+}
+.card8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.component-36-icon9 {
+  width: 1315px;
+  position: relative;
+  height: 53px;
+  z-index: 0;
+}
+.div48 {
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 44px;
+}
+.frame-child18 {
+  position: absolute;
+  top: 0;
+  left: 43px;
+  border-radius: var(--br-9xs);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.mg2345679 {
+  position: absolute;
+  top: 12px;
+  left: 113.9px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 82px;
+}
+.beauty-and-glamour4,
+.div49,
+.div50,
+.div51,
+.div52,
+.gloss9,
+.lorem-ipsum-dolor9 {
+  position: absolute;
+  top: 10px;
+  left: 195.9px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 163px;
+}
+.beauty-and-glamour4,
+.div49,
+.div50,
+.div51,
+.div52,
+.lorem-ipsum-dolor9 {
+  top: 9px;
+  left: 360px;
+  width: 175px;
+}
+.div49,
+.div50,
+.div51,
+.div52,
+.lorem-ipsum-dolor9 {
+  top: -5px;
+  left: 613px;
+  width: 214px;
+}
+.div49,
+.div50,
+.div51,
+.div52 {
+  top: 7px;
+  left: 979.9px;
+  width: 96px;
+}
+.div50,
+.div51,
+.div52 {
+  left: 1092px;
+  width: 89px;
+}
+.div51,
+.div52 {
+  left: 1190px;
+}
+.div52 {
+  top: 9px;
+  left: 846.9px;
+  width: 83px;
+}
+.frame-child19 {
+  position: absolute;
+  top: 1px;
+  left: 1100.9px;
+  width: 4px;
+  height: 18px;
+}
+.group-child8,
+.parent7 {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 1303px;
+  height: 40px;
+}
+.group-child8 {
+  top: 12.5px;
+  left: -0.5px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--monochrome-nuetral-500);
+  box-sizing: border-box;
+  width: 15.1px;
+  height: 15px;
+  overflow: hidden;
+}
+.frame-parent6 {
+  width: 1327px;
+  position: absolute;
+  margin: 0 !important;
+  top: 3px;
+  left: 0;
+  height: 40px;
+  z-index: 1;
+}
+.card9 {
+  align-self: stretch;
+  align-items: center;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.card-parent,
+.card9,
+.frame-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.card-parent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 20px;
+}
+.frame-div {
+  position: absolute;
+  top: 124px;
+  left: 15px;
+  width: 1327px;
+  align-items: center;
+  color: var(--neutral-black);
+}
+.div2 {
+  position: absolute;
+  top: 123px;
+  left: 52px;
+  width: 1348px;
+  height: 834px;
+  font-size: var(--body-sm-semibold-size);
+  color: #191635;
+  font-family: var(--body-sm-semibold);
+}
+.department {
+  width: 100%;
+  position: relative;
+  background-color: #f7f7f7;
+  height: 1006px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 40px;
+  color: #0341a7;
+  font-family: var(--font-inter);
+}
