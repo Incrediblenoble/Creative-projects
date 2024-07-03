@@ -5,7 +5,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Dashboard from "./pages/Dashboard";
+import Department from "./pages/Department";
+import Login from "./pages/Login";
 
 function App() {
   const action = useNavigationType();
@@ -27,6 +28,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/login":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -45,7 +50,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Dashboard />} />
+      <Route path="/" element={<Department />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
   );
 }
