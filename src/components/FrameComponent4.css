@@ -1,0 +1,299 @@
+.fortuna-icon1,
+.fortuna-item {
+  position: relative;
+  max-width: 100%;
+}
+.fortuna-item {
+  width: 1512px;
+  height: 252px;
+  background-color: var(--color-aliceblue);
+  display: none;
+}
+.fortuna-icon1 {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.fortuna-frame {
+  align-self: stretch;
+  width: 301.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.search-box-item {
+  height: 72px;
+  width: 704px;
+  position: relative;
+  border-radius: var(--br-mini);
+  border: 3px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.search1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 300;
+  color: inherit;
+  display: inline-block;
+  min-width: 123px;
+  z-index: 1;
+}
+.search-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.pajamassearch-icon1 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 50px;
+  z-index: 1;
+}
+.search-box1 {
+  flex: 1;
+  border-radius: var(--br-mini);
+  border: 3px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-6xs) var(--padding-lgi) var(--padding-6xs)
+    var(--padding-smi);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.mdicart-outline-icon1 {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.mdicart-outline-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.mingcuteuser-3-line-icon1 {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.mingcuteuser-3-line-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.frame-group,
+.search-box-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.search-box-parent {
+  width: 872px;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frame-group {
+  align-self: stretch;
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.home-and-kitchen1 {
+  position: relative;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 1;
+}
+.weuiarrow-outlined-icon4 {
+  width: 39px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.category-icons,
+.weuiarrow-outlined-wrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.weuiarrow-outlined-wrapper1 {
+  flex-direction: column;
+  padding: var(--padding-mini) 0 0;
+}
+.category-icons {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.furniture1 {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.weuiarrow-outlined-icon5 {
+  width: 39px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.category-icons1,
+.weuiarrow-outlined-wrapper2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.weuiarrow-outlined-wrapper2 {
+  flex-direction: column;
+  padding: var(--padding-mini) 0 0;
+}
+.category-icons1 {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.electronics1 {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.weuiarrow-outlined-icon6 {
+  width: 39px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.category-icons2,
+.weuiarrow-outlined-wrapper3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.weuiarrow-outlined-wrapper3 {
+  flex-direction: column;
+  padding: var(--padding-mini) 0 0;
+}
+.category-icons2 {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.power-supplies1 {
+  position: relative;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 1;
+}
+.weuiarrow-outlined-icon7 {
+  width: 39px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.weuiarrow-outlined-wrapper4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+}
+.categories,
+.category-icons3 {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.category-icons3 {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.categories {
+  gap: var(--gap-5xl);
+}
+.categories,
+.categories-wrapper,
+.fortuna-container,
+.fortuna1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.categories-wrapper {
+  width: 1392px;
+  flex-direction: row;
+  justify-content: center;
+  color: var(--color-darkslategray-100);
+}
+.fortuna-container,
+.fortuna1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.fortuna1 {
+  flex: 1;
+  background-color: var(--color-aliceblue);
+  flex-direction: column;
+  padding: var(--padding-27xl) var(--padding-29xl) var(--padding-11xl)
+    var(--padding-41xl);
+  gap: var(--gap-37xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-noto-sans-jp);
+}
+.fortuna-container {
+  height: 366px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 0 var(--padding-95xl);
+}
+@media screen and (max-width: 750px) {
+  .fortuna1 {
+    gap: var(--gap-9xl);
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .fortuna-container {
+    padding-bottom: var(--padding-55xl);
+    box-sizing: border-box;
+  }
+}

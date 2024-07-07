@@ -1,0 +1,107 @@
+.similar-products-container-child {
+  height: 141px;
+  width: 1512px;
+  position: relative;
+  background-color: var(--color-goldenrod);
+  display: none;
+  max-width: 100%;
+}
+.similar-products {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 4;
+}
+.similar-products-container,
+.similar-products-container-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.similar-products-container {
+  flex: 1;
+  background-color: var(--color-goldenrod);
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-xl);
+  z-index: 3;
+}
+.similar-products-container-wrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-45xl) var(--padding-12xs);
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-noto-sans-jp);
+}
+.product-placeholders-icon,
+.product-placeholders-icon1,
+.product-placeholders-icon2,
+.product-placeholders-icon3 {
+  align-self: stretch;
+  width: 300px;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-height: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 300px;
+}
+.carousel-items {
+  width: 1344px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.checkout,
+.product-carousel {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.product-carousel {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-45xl);
+  max-width: 100%;
+}
+.checkout {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow-y: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-26xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .similar-products {
+    font-size: var(--font-size-32xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .carousel-items {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .similar-products {
+    font-size: var(--font-size-19xl);
+  }
+  .product-carousel {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}

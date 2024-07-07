@@ -1,0 +1,373 @@
+.about-page-child {
+  height: 486px;
+  width: 1512px;
+  position: relative;
+  background-color: var(--color-goldenrod);
+  display: none;
+  max-width: 100%;
+}
+.customer-service {
+  position: relative;
+  z-index: 1;
+}
+.customer-service-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  font-size: var(--font-size-21xl);
+}
+.service-hours {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.service-hours-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-34xl);
+}
+.call-or-whatsapp,
+.div1,
+.monday-to-friday {
+  position: relative;
+  z-index: 1;
+}
+.call-or-whatsapp {
+  font-weight: 500;
+}
+.div1 {
+  cursor: pointer;
+}
+.phone-number {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-28xl);
+  font-size: var(--font-size-5xl);
+}
+.contact-container,
+.contact-header,
+.phone-number {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-header {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.contact-container {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-8xl) 0 var(--padding-9xl);
+  font-size: var(--font-size-13xl);
+}
+.service-hours-container,
+.service-hours-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.service-hours-detail {
+  align-self: stretch;
+  gap: var(--gap-base);
+  font-size: var(--font-size-5xl);
+}
+.service-hours-container {
+  width: 313px;
+  gap: var(--gap-5xs);
+}
+.email {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 87px;
+  z-index: 1;
+}
+.email-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.fortunastoregmailcom {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  white-space: nowrap;
+  z-index: 1;
+}
+.customer-service-container,
+.email-container,
+.email-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.email-header {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.customer-service-container,
+.email-container {
+  box-sizing: border-box;
+}
+.email-container {
+  width: 314px;
+  flex-direction: row;
+  padding: 0 var(--padding-mid);
+}
+.customer-service-container {
+  flex-direction: column;
+  padding: 0 var(--padding-mid) 0 0;
+  gap: var(--gap-base);
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.about-us1 {
+  position: relative;
+  z-index: 1;
+}
+.about-us-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-23xl) 0 var(--padding-25xl);
+}
+.fortuna-is-a {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.07em;
+  text-align: center;
+  z-index: 1;
+}
+.about-us {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.our-physical-location,
+.terms {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.terms {
+  min-width: 121px;
+}
+.our-physical-location {
+  max-width: 100%;
+}
+.location,
+.location-and-terms {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.location {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.location-and-terms {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-lgi);
+  box-sizing: border-box;
+}
+.free-shipping-over1,
+.obafemi-awolowo-universiy {
+  width: 227px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.obafemi-awolowo-universiy {
+  width: 260px;
+  letter-spacing: 0.07em;
+}
+.shipping {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+}
+.fast-delivery1 {
+  position: relative;
+  z-index: 1;
+}
+.delivery-types {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-23xl);
+}
+.days-guarantee1 {
+  position: relative;
+  z-index: 1;
+}
+.delivery,
+.delivery-types1,
+.store-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.delivery-types1 {
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+}
+.delivery,
+.store-details {
+  flex-direction: column;
+  max-width: 100%;
+}
+.delivery {
+  width: 574px;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-5xl);
+}
+.store-details {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+.social-media-icon {
+  width: 154px;
+  height: 50px;
+  position: relative;
+  z-index: 1;
+}
+.about,
+.about-page,
+.store-info {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.store-info {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-104xl);
+  min-width: 424px;
+}
+.about,
+.about-page {
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.about-page {
+  flex: 1;
+  background-color: var(--color-goldenrod);
+  flex-wrap: wrap;
+  padding: var(--padding-24xl) var(--padding-64xl) var(--padding-5xl);
+  gap: var(--gap-16xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-noto-sans-jp);
+}
+.about {
+  align-self: stretch;
+  padding: 0 0 var(--padding-base);
+}
+@media screen and (max-width: 1050px) {
+  .customer-service {
+    font-size: var(--font-size-13xl);
+  }
+  .call-or-whatsapp,
+  .email,
+  .service-hours {
+    font-size: var(--font-size-7xl);
+  }
+  .about-us1,
+  .our-physical-location,
+  .terms {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .location,
+  .shipping {
+    flex-wrap: wrap;
+  }
+  .store-info {
+    gap: var(--gap-42xl);
+    min-width: 100%;
+  }
+  .about-page {
+    gap: var(--gap-mid);
+    padding: var(--padding-9xl) var(--padding-22xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .customer-service {
+    font-size: var(--font-size-5xl);
+  }
+  .service-hours {
+    font-size: var(--font-size-lgi);
+  }
+  .service-hours-header {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .call-or-whatsapp,
+  .div1,
+  .monday-to-friday {
+    font-size: var(--font-size-lgi);
+  }
+  .phone-number {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .email,
+  .fortunastoregmailcom {
+    font-size: var(--font-size-lgi);
+  }
+  .about-us1 {
+    font-size: var(--font-size-5xl);
+  }
+  .about-us-header {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .fortuna-is-a {
+    font-size: var(--font-size-lgi);
+  }
+  .our-physical-location,
+  .terms {
+    font-size: var(--font-size-5xl);
+  }
+  .days-guarantee1,
+  .fast-delivery1,
+  .free-shipping-over1,
+  .obafemi-awolowo-universiy {
+    font-size: var(--font-size-lgi);
+  }
+  .store-info {
+    gap: var(--gap-12xl);
+  }
+}

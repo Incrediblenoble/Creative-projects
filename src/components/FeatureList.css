@@ -1,0 +1,68 @@
+.game-iconsspeaker {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 50px;
+}
+.crystal-clear-audio {
+  position: relative;
+  font-weight: 500;
+}
+.audio-description,
+.audio-feature,
+.game-iconsspeaker-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.audio-description {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.audio-feature,
+.game-iconsspeaker-parent {
+  flex-direction: row;
+  max-width: 100%;
+}
+.game-iconsspeaker-parent {
+  gap: var(--gap-lg);
+}
+.audio-feature {
+  padding: 0 var(--padding-7xl);
+  box-sizing: border-box;
+}
+.feature-separator-one {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.feature-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-noto-sans-jp);
+}
+@media screen and (max-width: 1050px) {
+  .crystal-clear-audio {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .crystal-clear-audio {
+    font-size: var(--font-size-lgi);
+  }
+  .game-iconsspeaker-parent {
+    flex-wrap: wrap;
+  }
+}

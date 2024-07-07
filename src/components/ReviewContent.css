@@ -1,0 +1,81 @@
+.review-content-child {
+  width: 1197px;
+  height: 276px;
+  position: relative;
+  border: 3px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.july-7-2024 {
+  margin: 0;
+}
+.july-7-2024-container {
+  width: 142px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  z-index: 2;
+}
+.stars-icon {
+  width: 112px;
+  height: 19px;
+  position: relative;
+  z-index: 2;
+}
+.i-love-it,
+.reviewed-by-ash,
+.sleek {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.sleek {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+  font-weight: 700;
+  font-family: inherit;
+  min-width: 109px;
+}
+.i-love-it,
+.reviewed-by-ash {
+  min-width: 81px;
+}
+.reviewed-by-ash {
+  font-size: var(--font-size-base);
+  min-width: 125px;
+}
+.review-content {
+  align-self: stretch;
+  border: 3px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) var(--padding-xl) var(--padding-lg)
+    var(--padding-13xl);
+  gap: var(--gap-smi);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-noto-sans-jp);
+}
+@media screen and (max-width: 1050px) {
+  .sleek {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .july-7-2024-container {
+    font-size: var(--font-size-lgi);
+  }
+  .sleek {
+    font-size: var(--font-size-5xl);
+  }
+  .i-love-it {
+    font-size: var(--font-size-lgi);
+  }
+}
