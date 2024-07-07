@@ -1,0 +1,51 @@
+.product-image-container-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.powerbank {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.product-image-container,
+.product-name-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.product-name-container {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-45xl) 0 var(--padding-44xl);
+}
+.product-image-container {
+  height: 362px;
+  flex-direction: column;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-noto-sans-jp);
+}
+@media screen and (max-width: 1050px) {
+  .powerbank {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .powerbank {
+    font-size: var(--font-size-lgi);
+  }
+  .product-name-container {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

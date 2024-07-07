@@ -1,0 +1,109 @@
+.macbook-container,
+.macbook-container1 {
+  width: 47px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1384px;
+  left: 211px;
+  font-weight: 300;
+  display: inline-block;
+  z-index: 3;
+}
+.macbook-container1 {
+  top: 2400px;
+}
+.product-display-header-child {
+  height: 141px;
+  width: 1512px;
+  position: relative;
+  background-color: var(--color-goldenrod);
+  display: none;
+  max-width: 100%;
+}
+.products-display {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.product-display,
+.product-display-header {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.product-display-header {
+  background-color: var(--color-goldenrod);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-xl) var(--padding-5xl)
+    var(--padding-2xl);
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-noto-sans-jp);
+}
+.product-display {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+}
+.join-our-newsletter {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.macbook-pro-14-2,
+.newsletter {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-noto-sans-jp);
+}
+.newsletter {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-base);
+  font-size: var(--font-size-45xl);
+}
+.macbook-pro-14-2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow-y: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-26xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-21xl);
+}
+@media screen and (max-width: 1050px) {
+  .macbook-container,
+  .macbook-container1 {
+    font-size: var(--font-size-13xl);
+  }
+  .join-our-newsletter,
+  .products-display {
+    font-size: var(--font-size-32xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .macbook-container,
+  .macbook-container1 {
+    font-size: var(--font-size-5xl);
+  }
+  .join-our-newsletter,
+  .products-display {
+    font-size: var(--font-size-19xl);
+  }
+}

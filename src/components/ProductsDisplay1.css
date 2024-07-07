@@ -1,0 +1,100 @@
+.products-display-item {
+  width: 1512px;
+  height: 1060px;
+  position: relative;
+  background-color: var(--color-steelblue);
+  display: none;
+  max-width: 100%;
+}
+.frame-parent2 {
+  width: 1344px;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+  grid-template-columns: repeat(4, minmax(225px, 1fr));
+}
+.right-arrow-icon2 {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  z-index: 2;
+  object-fit: contain;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  transform: scale(1.12);
+}
+.wrapper-right-arrow2 {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  cursor: pointer;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-display-navigation {
+  align-self: stretch;
+  height: 124px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.frame-parent3,
+.products-display3 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent3 {
+  width: 1344px;
+  display: grid;
+  flex-direction: row;
+  gap: var(--gap-29xl);
+  grid-template-columns: repeat(4, minmax(225px, 1fr));
+}
+.products-display3 {
+  align-self: stretch;
+  background-color: var(--color-steelblue);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-63xl) var(--padding-22xl) var(--padding-101xl)
+    var(--padding-54xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  z-index: 1;
+}
+@media screen and (max-width: 1200px) {
+  .frame-parent2,
+  .frame-parent3 {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(225px, 390px));
+  }
+}
+@media screen and (max-width: 1050px) {
+  .products-display3 {
+    padding-top: var(--padding-34xl);
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-parent2,
+  .frame-parent3 {
+    gap: var(--gap-5xl);
+    grid-template-columns: minmax(225px, 1fr);
+  }
+  .products-display3 {
+    padding-left: var(--padding-17xl);
+    padding-top: var(--padding-15xl);
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}

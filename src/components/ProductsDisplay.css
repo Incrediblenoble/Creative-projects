@@ -1,0 +1,106 @@
+.products-display-child {
+  width: 1512px;
+  height: 1060px;
+  position: relative;
+  background-color: var(--color-steelblue);
+  display: none;
+  max-width: 100%;
+}
+.product-item-container,
+.product-items {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.product-items {
+  flex: 1;
+  display: grid;
+  gap: var(--gap-29xl);
+  grid-template-columns: repeat(4, minmax(225px, 1fr));
+}
+.product-item-container {
+  align-self: stretch;
+  display: flex;
+  padding: 0 0 0 var(--padding-13xl);
+  box-sizing: border-box;
+}
+.left-arrow-icon1 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  object-fit: contain;
+  cursor: pointer;
+  z-index: 2;
+}
+.product-container,
+.product-items-second-row {
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.product-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.product-items-second-row {
+  width: 1344px;
+  display: grid;
+  flex-direction: row;
+  gap: var(--gap-29xl);
+  grid-template-columns: repeat(4, minmax(225px, 1fr));
+}
+.products-display2 {
+  align-self: stretch;
+  background-color: var(--color-steelblue);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-63xl) var(--padding-76xl) var(--padding-101xl)
+    var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-noto-sans-jp);
+}
+@media screen and (max-width: 1200px) {
+  .product-items,
+  .product-items-second-row {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(225px, 390px));
+  }
+}
+@media screen and (max-width: 1050px) {
+  .products-display2 {
+    padding-top: var(--padding-34xl);
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .product-items,
+  .product-items-second-row {
+    gap: var(--gap-5xl);
+    grid-template-columns: minmax(225px, 1fr);
+  }
+  .products-display2 {
+    gap: var(--gap-mini);
+    padding-top: var(--padding-15xl);
+    padding-right: var(--padding-28xl);
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .products-display2 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
